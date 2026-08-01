@@ -18,7 +18,6 @@ createRoot(document.getElementById("root")!).render(
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Route>
-      
       {/* Dashboard Pages */}
     </Routes>
   </BrowserRouter>,
