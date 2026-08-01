@@ -12,7 +12,7 @@ export function Card({ title, description, buttonLabel, buttonVariant = "primary
     <div className="border border-gray-200 rounded-lg p-6 bg-white hover:bg-gray-50 transition-colors">
       <h1 className="text-xl font-semibold mb-2">{title}</h1>
       <p className="text-gray-600 mb-4">{description}</p>
-      <Button variant={buttonVariant}>{buttonLabel}</Button>
+      <Button id="testFromCard" variant={buttonVariant}>{buttonLabel}</Button>
     </div>
   );
 }
